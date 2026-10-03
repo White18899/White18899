@@ -17,15 +17,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate activity graph
-        uses: maurodesouza/github-readme-activity-graph-action@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          username: ${{ github.repository_owner }}
-          options: theme=react-dark&custom_title=ACTIVITY%20OSCILLOSCOPE&line=00ff66&point=ffe600&area=true&hide_border=true&bg_color=0d1117
-          output_path: activity-graph.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          node-version: 20
 
-      - name: Commit and Push
+      - name: Generate Oscilloscope SVG
+        run: node generate_oscilloscope.mjs
+
+      - name: Commit and Push changes
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com

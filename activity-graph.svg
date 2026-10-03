@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 260" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Neon Gradient for Oscilloscope Area -->
+    <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00FF66" stop-opacity="0.32" />
+      <stop offset="60%" stop-color="#00FF66" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#00FF66" stop-opacity="0.00" />
+    </linearGradient>
+
+    <!-- Line Stroke Gradient -->
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" />
+      <stop offset="50%" stop-color="#00FF66" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .title-text { font-family: 'Fira Code', monospace, sans-serif; font-size: 13px; font-weight: 700; fill: #00FF66; letter-spacing: 1px; }
+    .stat-text { font-family: 'Fira Code', monospace, sans-serif; font-size: 12px; fill: #94a3b8; }
+    .grid-line { stroke: #1e293b; stroke-dasharray: 4 6; stroke-width: 1; }
+  </style>
+
+  <!-- Background Panel -->
+  <rect width="880" height="260" rx="12" fill="#0d1117" stroke="#1f2937" stroke-width="1.5" />
+
+  <!-- Oscilloscope Grid Lines -->
+  <line x1="45" y1="65" x2="845" y2="65" class="grid-line" />
+  <line x1="45" y1="114.5" x2="845" y2="114.5" class="grid-line" />
+  <line x1="45" y1="164" x2="845" y2="164" class="grid-line" />
+  <line x1="45" y1="215" x2="845" y2="215" stroke="#334155" stroke-width="1.5" />
+
+  <!-- Header HUD -->
+  <g transform="translate(45, 34)">
+    <!-- Blinking Radar dot -->
+    <circle cx="6" cy="-4" r="4" fill="#00FF66" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="20" y="0" class="title-text">ACTIVITY OSCILLOSCOPE // 365-DAY FREQUENCY</text>
+    <text x="800" y="0" class="stat-text" text-anchor="end">TOTAL SIGNALS: <tspan fill="#00FF66" font-weight="bold">343</tspan> COMMITS</text>
+  </g>
+
+  <!-- Oscilloscope Area Wave -->
+  <path d="M 45 215 C 47.6 215.0, 55.3 215.0, 60.4 215 C 65.5 215.0, 70.7 215.0, 75.8 215 C 80.9 215.0, 86.1 215.0, 91.2 215 C 96.3 215.0, 101.4 215.0, 106.5 215 C 111.6 215.0, 116.8 215.0, 121.9 215 C 127.0 215.0, 132.2 215.0, 137.3 215 C 142.4 215.0, 147.6 215.0, 152.7 215 C 157.8 215.0, 163.0 215.0, 168.1 215 C 173.2 215.0, 178.4 215.0, 183.5 215 C 188.6 215.0, 193.7 215.0, 198.8 215 C 203.9 215.0, 209.1 215.0, 214.2 215 C 219.3 215.0, 224.5 215.0, 229.6 215 C 234.7 215.0, 239.9 215.0, 245 215 C 250.1 215.0, 255.3 215.0, 260.4 215 C 265.5 215.0, 270.7 215.0, 275.8 215 C 280.9 215.0, 286.1 215.0, 291.2 215 C 296.3 215.0, 301.4 215.0, 306.5 215 C 311.6 215.0, 316.8 215.0, 321.9 215 C 327.0 215.0, 332.2 215.0, 337.3 215 C 342.4 215.0, 347.6 215.0, 352.7 215 C 357.8 215.0, 363.0 215.0, 368.1 215 C 373.2 215.0, 378.4 215.0, 383.5 215 C 388.6 215.0, 393.7 215.0, 398.8 215 C 403.9 215.0, 409.1 215.0, 414.2 215 C 419.3 215.0, 424.5 215.0, 429.6 215 C 434.7 215.0, 439.9 215.0, 445 215 C 450.1 215.0, 455.3 215.0, 460.4 215 C 465.5 215.0, 470.7 215.4, 475.8 215 C 480.9 214.6, 486.1 212.6, 491.2 212.6 C 496.3 212.6, 501.4 214.6, 506.5 215 C 511.6 215.4, 516.8 215.0, 521.9 215 C 527.0 215.0, 532.2 215.8, 537.3 215 C 542.4 214.2, 547.6 210.2, 552.7 210.2 C 557.8 210.2, 563.0 214.2, 568.1 215 C 573.2 215.8, 578.4 220.0, 583.5 215 C 588.6 210.0, 593.7 190.7, 598.8 184.8 C 603.9 179.0, 609.1 176.3, 614.2 179.9 C 619.3 183.5, 624.5 204.7, 629.6 206.5 C 634.7 208.3, 639.9 193.0, 645 190.8 C 650.1 188.6, 655.3 194.2, 660.4 193.2 C 665.5 192.2, 670.7 189.8, 675.8 184.8 C 680.9 179.8, 686.1 161.2, 691.2 163 C 696.3 164.8, 701.4 188.3, 706.5 195.6 C 711.6 202.8, 716.8 204.3, 721.9 206.5 C 727.0 208.7, 732.2 207.6, 737.3 209 C 742.4 210.4, 747.6 214.0, 752.7 215 C 757.8 216.0, 763.0 215.6, 768.1 215 C 773.2 214.4, 778.4 212.4, 783.5 211.4 C 788.6 210.4, 793.7 209.0, 798.8 209 C 803.9 209.0, 809.1 211.8, 814.2 211.4 C 819.3 211.0, 824.5 230.9, 829.6 206.5 C 834.7 182.1, 842.4 88.6, 845 65 L 845 215 L 45 215 Z" fill="url(#areaGrad)" />
+
+  <!-- Oscilloscope Line Wave -->
+  <path d="M 45 215 C 47.6 215.0, 55.3 215.0, 60.4 215 C 65.5 215.0, 70.7 215.0, 75.8 215 C 80.9 215.0, 86.1 215.0, 91.2 215 C 96.3 215.0, 101.4 215.0, 106.5 215 C 111.6 215.0, 116.8 215.0, 121.9 215 C 127.0 215.0, 132.2 215.0, 137.3 215 C 142.4 215.0, 147.6 215.0, 152.7 215 C 157.8 215.0, 163.0 215.0, 168.1 215 C 173.2 215.0, 178.4 215.0, 183.5 215 C 188.6 215.0, 193.7 215.0, 198.8 215 C 203.9 215.0, 209.1 215.0, 214.2 215 C 219.3 215.0, 224.5 215.0, 229.6 215 C 234.7 215.0, 239.9 215.0, 245 215 C 250.1 215.0, 255.3 215.0, 260.4 215 C 265.5 215.0, 270.7 215.0, 275.8 215 C 280.9 215.0, 286.1 215.0, 291.2 215 C 296.3 215.0, 301.4 215.0, 306.5 215 C 311.6 215.0, 316.8 215.0, 321.9 215 C 327.0 215.0, 332.2 215.0, 337.3 215 C 342.4 215.0, 347.6 215.0, 352.7 215 C 357.8 215.0, 363.0 215.0, 368.1 215 C 373.2 215.0, 378.4 215.0, 383.5 215 C 388.6 215.0, 393.7 215.0, 398.8 215 C 403.9 215.0, 409.1 215.0, 414.2 215 C 419.3 215.0, 424.5 215.0, 429.6 215 C 434.7 215.0, 439.9 215.0, 445 215 C 450.1 215.0, 455.3 215.0, 460.4 215 C 465.5 215.0, 470.7 215.4, 475.8 215 C 480.9 214.6, 486.1 212.6, 491.2 212.6 C 496.3 212.6, 501.4 214.6, 506.5 215 C 511.6 215.4, 516.8 215.0, 521.9 215 C 527.0 215.0, 532.2 215.8, 537.3 215 C 542.4 214.2, 547.6 210.2, 552.7 210.2 C 557.8 210.2, 563.0 214.2, 568.1 215 C 573.2 215.8, 578.4 220.0, 583.5 215 C 588.6 210.0, 593.7 190.7, 598.8 184.8 C 603.9 179.0, 609.1 176.3, 614.2 179.9 C 619.3 183.5, 624.5 204.7, 629.6 206.5 C 634.7 208.3, 639.9 193.0, 645 190.8 C 650.1 188.6, 655.3 194.2, 660.4 193.2 C 665.5 192.2, 670.7 189.8, 675.8 184.8 C 680.9 179.8, 686.1 161.2, 691.2 163 C 696.3 164.8, 701.4 188.3, 706.5 195.6 C 711.6 202.8, 716.8 204.3, 721.9 206.5 C 727.0 208.7, 732.2 207.6, 737.3 209 C 742.4 210.4, 747.6 214.0, 752.7 215 C 757.8 216.0, 763.0 215.6, 768.1 215 C 773.2 214.4, 778.4 212.4, 783.5 211.4 C 788.6 210.4, 793.7 209.0, 798.8 209 C 803.9 209.0, 809.1 211.8, 814.2 211.4 C 819.3 211.0, 824.5 230.9, 829.6 206.5 C 834.7 182.1, 842.4 88.6, 845 65" fill="none" stroke="url(#lineGrad)" stroke-width="3" filter="url(#glow)" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Peak Highlights -->
+  
+        <circle cx="598.8" cy="184.8" r="4" fill="#00FF66" filter="url(#glow)" />
+        <circle cx="598.8" cy="184.8" r="2" fill="#ffffff" />
+      
+
+        <circle cx="614.2" cy="179.9" r="4" fill="#00FF66" filter="url(#glow)" />
+        <circle cx="614.2" cy="179.9" r="2" fill="#ffffff" />
+      
+
+        <circle cx="629.6" cy="206.5" r="4" fill="#00FF66" filter="url(#glow)" />
+        <circle cx="629.6" cy="206.5" r="2" fill="#ffffff" />
+      
+
+        <circle cx="645" cy="190.8" r="4" fill="#00FF66" filter="url(#glow)" />
+        <circle cx="645" cy="190.8" r="2" fill="#ffffff" />
+      
+
+        <circle cx="660.4" cy="193.2" r="4" fill="#00FF66" filter="url(#glow)" />
+        <circle cx="660.4" cy="193.2" r="2" fill="#ffffff" />
+      
+
+        <circle cx="675.8" cy="184.8" r="4" fill="#00FF66" filter="url(#glow)" />
+        <circle cx="675.8" cy="184.8" r="2" fill="#ffffff" />
+      
+
+        <circle cx="691.2" cy="163" r="4" fill="#00FF66" filter="url(#glow)" />
+        <circle cx="691.2" cy="163" r="2" fill="#ffffff" />
+      
+
+        <circle cx="706.5" cy="195.6" r="4" fill="#00FF66" filter="url(#glow)" />
+        <circle cx="706.5" cy="195.6" r="2" fill="#ffffff" />
+      
+
+        <circle cx="721.9" cy="206.5" r="4" fill="#00FF66" filter="url(#glow)" />
+        <circle cx="721.9" cy="206.5" r="2" fill="#ffffff" />
+      
+
+        <circle cx="829.6" cy="206.5" r="4" fill="#00FF66" filter="url(#glow)" />
+        <circle cx="829.6" cy="206.5" r="2" fill="#ffffff" />
+      
+
+        <circle cx="845" cy="65" r="4" fill="#00FF66" filter="url(#glow)" />
+        <circle cx="845" cy="65" r="2" fill="#ffffff" />
+      
+
+  <!-- Time Axis Labels -->
+  <text x="45.0" y="242" fill="#64748b" font-size="12" font-family="'Fira Code', monospace" text-anchor="middle">Oct</text>
+    <text x="111.7" y="242" fill="#64748b" font-size="12" font-family="'Fira Code', monospace" text-anchor="middle">Nov</text>
+    <text x="178.3" y="242" fill="#64748b" font-size="12" font-family="'Fira Code', monospace" text-anchor="middle">Dec</text>
+    <text x="245.0" y="242" fill="#64748b" font-size="12" font-family="'Fira Code', monospace" text-anchor="middle">Jan</text>
+    <text x="311.7" y="242" fill="#64748b" font-size="12" font-family="'Fira Code', monospace" text-anchor="middle">Feb</text>
+    <text x="378.3" y="242" fill="#64748b" font-size="12" font-family="'Fira Code', monospace" text-anchor="middle">Mar</text>
+    <text x="445.0" y="242" fill="#64748b" font-size="12" font-family="'Fira Code', monospace" text-anchor="middle">Apr</text>
+    <text x="511.7" y="242" fill="#64748b" font-size="12" font-family="'Fira Code', monospace" text-anchor="middle">May</text>
+    <text x="578.3" y="242" fill="#64748b" font-size="12" font-family="'Fira Code', monospace" text-anchor="middle">Jun</text>
+    <text x="645.0" y="242" fill="#64748b" font-size="12" font-family="'Fira Code', monospace" text-anchor="middle">Jul</text>
+    <text x="711.7" y="242" fill="#64748b" font-size="12" font-family="'Fira Code', monospace" text-anchor="middle">Aug</text>
+    <text x="778.3" y="242" fill="#64748b" font-size="12" font-family="'Fira Code', monospace" text-anchor="middle">Sep</text>
+    <text x="845.0" y="242" fill="#64748b" font-size="12" font-family="'Fira Code', monospace" text-anchor="middle">Oct</text>
+</svg>
