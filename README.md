@@ -81,10 +81,10 @@
 
 ---
 
-### 🏙️ // 3D ISOMETRIC CONTRIBUTION MATRIX
+### 📈 // ACTIVITY OSCILLOSCOPE & RADAR
 
 <div align="center">
-  <img src="./profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D Isometric Contribution Matrix" />
+  <img src="./activity-graph.svg" width="100%" alt="Activity Oscilloscope" />
 </div>
 
 ### 🚀 // FEATURED BUILDS

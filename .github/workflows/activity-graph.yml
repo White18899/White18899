@@ -1,0 +1,34 @@
+name: Update Activity Oscilloscope
+
+on:
+  schedule:
+    - cron: "0 18 * * *" # Runs daily
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate activity graph
+        uses: maurodesouza/github-readme-activity-graph-action@v2
+        with:
+          username: ${{ github.repository_owner }}
+          options: theme=react-dark&custom_title=ACTIVITY%20OSCILLOSCOPE&line=00ff66&point=ffe600&area=true&hide_border=true&bg_color=0d1117
+          output_path: activity-graph.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add activity-graph.svg
+          git commit -m "chore: update activity oscilloscope" || exit 0
+          git push
