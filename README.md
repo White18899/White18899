@@ -1,71 +1,112 @@
 <div align="center">
 
-  <!-- Dynamic Typing Header -->
-  <a href="https://nithin.akao.in/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=F3F4F6&center=true&vCenter=true&width=500&lines=Hi%2C+I'm+Nithin+%F0%9F%91%8B;Full+Stack+Developer;Building+Modern+Web+Experiences;Welcome+to+my+digital+space" alt="Typing SVG" />
-  </a>
+```
+ _   _  ___  _____  _   _  _____  _   _ 
+| \ | ||_ _||_   _|| | | ||_   _|| \ | |
+|  \| | | |   | |  | |_| |  | |  |  \| |
+| |\  | | |   | |  |  _  |  | |  | |\  |
+|_| \_||___|  |_|  |_| |_| |___| |_| \_|
+```
 
-  <p align="center">
-    <b>Passionate Developer</b> crafting smooth, responsive, and aesthetic digital experiences.
-  </p>
+# ⚡ NITHIN // WHITE18899 ⚡
+### [ FULL-STACK OPERATOR • CREATIVE DEVELOPER • DIGITAL CRAFTSMAN ]
 
-  <!-- Social / Quick Links Badges -->
-  <p align="center">
-    <a href="https://nithin.akao.in/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-nithin.akao.in-000000?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
-    <a href="https://www.linkedin.com" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-    <a href="mailto:white018899@gmail.com"><img src="https://img.shields.io/badge/Email-Get_in_Touch-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  </p>
+<!-- BRUTALIST TICKER -->
+<a href="https://nithin.akao.in/">
+  <img src="https://readme-typing-svg.demolab.com?font=VT323&size=26&pause=800&color=00FF66&center=true&vCenter=true&width=620&lines=%3E+INITIALIZING+SYSTEM...;%3E+BUILDING+AT+VAJRA+HUB;%3E+SPECIALIZING+IN+HIGH-PERFORMANCE+WEB;%3E+CHECK+MY+PORTFOLIO+AT+NITHIN.AKAO.IN;%3E+STATUS%3A+ALWAYS+COOKING" alt="Terminal Typing" />
+</a>
+
+<br/><br/>
+
+<!-- HIGH-VOLTAGE ACTION BADGES -->
+<a href="https://nithin.akao.in/" target="_blank">
+  <img src="https://img.shields.io/badge/🌐_PORTFOLIO-NITHIN.AKAO.IN-FFE600?style=for-the-badge&logoColor=black&labelColor=000000" />
+</a>
+<a href="https://linkedin.com" target="_blank">
+  <img src="https://img.shields.io/badge/⚡_CONNECT-LINKEDIN-00F0FF?style=for-the-badge&logoColor=black&labelColor=000000" />
+</a>
+<a href="mailto:white018899@gmail.com">
+  <img src="https://img.shields.io/badge/✉️_DISPATCH-EMAIL_ME-FF0055?style=for-the-badge&logoColor=white&labelColor=000000" />
+</a>
 
 </div>
 
+<br/>
+
+```
+╔══════════════════════════════════════════════════════════════════════════════════════════════╗
+║ [!] SYSTEM TELEMETRY                                                                         ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════╣
+║ • BASE LOCATION    : GOPALAPATNAM, INDIA                                                     ║
+║ • HEADQUARTERS     : VAJRA HUB                                                               ║
+║ • DIGITAL OUTPOST  : HTTPS://NITHIN.AKAO.IN                                                  ║
+║ • CORE MISSION     : BUILDING SCALABLE WEB SYSTEMS & KINETIC FRONTEND INTERFACES             ║
+║ • CURRENT STATUS   : OPEN TO COLLABORATIONS & CRAZY PROJECTS                                 ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════╝
+```
+
 ---
 
-### ⚡ About Me
-
-- 🔭 Currently building innovative web apps at **Vajra Hub**
-- 🌐 Explore my portfolio & projects at **[nithin.akao.in](https://nithin.akao.in/)**
-- 💬 Ask me about **JavaScript, Frontend UI/UX, and Modern Web Dev**
-- 🎯 Goals: Developing scalable applications and mastering creative frontend design
-- 📫 Reach me directly: `white018899@gmail.com`
-
----
-
-### 🛠️ Tech Stack & Tools
+## 🛠️ // WEAPONS_OF_CHOICE [STICKER_BOMB]
 
 <div align="center">
 
-  <!-- Frontend -->
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+<!-- FRONTEND -->
+<img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/REACT-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/HTML5-FF5722?style=for-the-badge&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS3-2965F1?style=for-the-badge&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/TAILWIND_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
 
-  <!-- Backend & Tools -->
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+<br/>
+
+<!-- RUNTIME & INFRA -->
+<img src="https://img.shields.io/badge/NODE.JS-22C55E?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/EXPRESS-000000?style=for-the-badge&logo=express&logoColor=white" />
+<img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/VERCEL-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+<img src="https://img.shields.io/badge/LINUX-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 
 </div>
 
 ---
 
-### 📊 GitHub Analytics
+## 📊 // RAW_METRICS & TELEMETRY
 
 <div align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=White18899&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" />
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=White18899&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" />
-</div>
 
-<div align="center">
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=White18899&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub Streak" />
+<!-- STATS CARDS -->
+<img src="https://github-readme-stats.vercel.app/api?username=White18899&show_icons=true&bg_color=000000&border_color=00FF66&title_color=00FF66&text_color=FFFFFF&icon_color=FFE600&hide_border=false" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=White18899&layout=compact&bg_color=000000&border_color=FF0055&title_color=FF0055&text_color=FFFFFF&hide_border=false" width="48%" />
+
+<br/><br/>
+
+<!-- STREAK TRACKER -->
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=White18899&background=000000&border=00F0FF&stroke=00F0FF&ring=FFE600&fire=FF0055&currStreakLabel=00F0FF&sideLabels=FFFFFF&sideNums=FFFFFF&dates=888888&hide_border=false" width="97%" alt="Streak Telemetry" />
+
 </div>
 
 ---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24&height=70&section=footer"/>
-</p>
+## 📂 // ARCHIVES & DIRECTIVES
+
+<details>
+<summary><b>[+] DECRYPT DIRECTIVES & PROTOCOLS (CLICK TO EXPAND)</b></summary>
+<br/>
+
+```bash
+$ cat directives.txt
+1. Ship fast, refine relentlessly.
+2. Form follows function, but aesthetics demand impact.
+3. Clean code in the engine, maximalist energy in the UI.
+4. Always experiment beyond the standard boilerplate.
+```
+
+</details>
+
+<br/>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=3,15,22&height=18&section=footer&width=1000"/>
+</div>
