@@ -19,31 +19,30 @@
       filter: drop-shadow(0 2px 8px rgba(0, 242, 254, 0.45));
     }
 
+    /* 3-phase smooth vertical slide */
     @keyframes rotateCycle {
       0% {
         opacity: 0;
         transform: translateY(24px) scale(0.96);
       }
-      4%, 21% {
+      5%, 28% {
         opacity: 1;
         transform: translateY(0px) scale(1);
       }
-      25%, 100% {
+      33.33%, 100% {
         opacity: 0;
         transform: translateY(-24px) scale(0.96);
       }
     }
 
-    .line-1 { animation: rotateCycle 12s cubic-bezier(0.16, 1, 0.3, 1) infinite 0s; }
-    .line-2 { animation: rotateCycle 12s cubic-bezier(0.16, 1, 0.3, 1) infinite 3s; }
-    .line-3 { animation: rotateCycle 12s cubic-bezier(0.16, 1, 0.3, 1) infinite 6s; }
-    .line-4 { animation: rotateCycle 12s cubic-bezier(0.16, 1, 0.3, 1) infinite 9s; }
+    .line-1 { animation: rotateCycle 9s cubic-bezier(0.16, 1, 0.3, 1) infinite 0s; }
+    .line-2 { animation: rotateCycle 9s cubic-bezier(0.16, 1, 0.3, 1) infinite 3s; }
+    .line-3 { animation: rotateCycle 9s cubic-bezier(0.16, 1, 0.3, 1) infinite 6s; }
   </style>
 
   <g transform="translate(400, 30)">
     <text class="rotator-text line-1" fill="url(#textGrad)">⚡ Building Next-Gen Web Apps at Vajra Hub</text>
     <text class="rotator-text line-2" fill="url(#textGrad)">🌐 Live Portfolio &amp; Outpost: nithin.akao.in</text>
-    <text class="rotator-text line-3" fill="url(#textGrad)">🚀 Full-Stack Developer • Kinetic UI Engineer</text>
-    <text class="rotator-text line-4" fill="url(#textGrad)">💡 Turning Complex Logic into Elegant Interfaces</text>
+    <text class="rotator-text line-3" fill="url(#textGrad)">💡 Turning Complex Logic into Elegant Interfaces</text>
   </g>
 </svg>

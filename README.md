@@ -3,11 +3,7 @@
   <!-- 3D COSMIC DEPTH FLUID WAVE BANNER -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050811,45:0e1a2e,100:03060d&height=220&section=header&text=NITHIN&fontSize=52&fontColor=ffffff&fontAlignY=36&animation=twinkling&desc=FULL%20STACK%20DEVELOPER%20%E2%80%A2%20CREATIVE%20ENGINEER&descSize=16&descColor=00F2FE&descAlignY=62" width="100%" />
 
-<<<<<<< HEAD
   <!-- 2D ROTATING TEXT ANIMATION -->
-=======
-  <!-- 2D KINETIC TYPING TERMINAL -->
->>>>>>> df2f20dd97dbf340274db2043f3cb7ccf72640ea
   <a href="https://nithin.akao.in/">
     <img src="./rotating-text.svg" width="100%" alt="Rotating Text" />
   </a>
