@@ -102,20 +102,14 @@
 
 ---
 
-### ✍️ // VISITOR GUESTBOOK
+### 🎧 // TRANSMISSION FREQUENCY [YOUTUBE PLAYER]
 
 <div align="center">
-  <p>Leave a message, feedback, or say hi! Your note will appear here automatically.</p>
-  <a href="https://github.com/White18899/White18899/issues/new?template=guestbook.yml&title=guestbook%3A+sign">
-    <img src="https://img.shields.io/badge/✍️_SIGN_MY_GUESTBOOK-CLICK_TO_LEAVE_A_MESSAGE-00FF66?style=for-the-badge&logoColor=black&labelColor=0d1117" />
+  <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk" target="_blank">
+    <img src="./media-player.svg" width="540" alt="YouTube Media Player" />
   </a>
+  <p><sub style="color:#64748b;">Click player to listen along on YouTube</sub></p>
 </div>
-
-<br/>
-
-<!-- START_SECTION:guestbook -->
-<p align="center"><i>Be the first to sign! Click the button above to leave your signature.</i></p>
-<!-- END_SECTION:guestbook -->
 
 <div align="center">
   <!-- MATCHING COSMIC WAVE FOOTER -->
