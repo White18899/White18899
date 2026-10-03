@@ -1,25 +1,26 @@
 <div align="center">
 
-  <!-- LUXURY OBSIDIAN & DEEP NAVY FLUID WAVE BANNER -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050811,50:0d1b2a,100:020408&height=220&section=header&text=NITHIN&fontSize=54&fontColor=ffffff&fontAlignY=36&animation=twinkling&desc=FULL%20STACK%20DEVELOPER%20%E2%80%A2%20CREATIVE%20ENGINEER&descSize=16&descColor=00f2fe&descAlignY=62" width="100%" />
+  <!-- 3D COSMIC DEPTH FLUID WAVE BANNER -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050811,45:0e1a2e,100:03060d&height=220&section=header&text=NITHIN&fontSize=52&fontColor=ffffff&fontAlignY=36&animation=twinkling&desc=FULL%20STACK%20DEVELOPER%20%E2%80%A2%20CREATIVE%20ENGINEER&descSize=16&descColor=00F2FE&descAlignY=62" width="100%" />
 
-  <!-- ELECTRIC CYAN TYPING TERMINAL (NO TEXT CLIPPING) -->
+  <!-- 2D KINETIC TYPING TERMINAL -->
   <a href="https://nithin.akao.in/">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00F2FE&center=true&vCenter=true&width=800&height=45&lines=%E2%86%92+Crafting+modern+digital+experiences+at+Vajra+Hub;%E2%86%92+Live+portfolio+%26+lab%3A+nithin.akao.in;%E2%86%92+Specialized+in+React%2C+Kinetic+UI+%26+Scalable+Backends;%E2%86%92+Turning+complex+problems+into+elegant+interfaces" alt="Typing SVG" />
   </a>
 
-  <br/><br/>
+  <!-- 3D CYBER LASER BEAM SCROLLING DIVIDER -->
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" />
 
-  <!-- SLEEK PILL ACTIONS -->
+  <!-- MINIMALIST GLOW PILL BUTTONS -->
   <p align="center">
     <a href="https://nithin.akao.in/" target="_blank">
-      <img src="https://img.shields.io/badge/Live_Portfolio-nithin.akao.in-00F2FE?style=for-the-badge&logo=googlechrome&logoColor=000&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/🌐_LIVE_PORTFOLIO-nithin.akao.in-00F2FE?style=for-the-badge&logoColor=000&labelColor=0d1117" />
     </a>
     <a href="https://linkedin.com" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-Connect-38BDF8?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/⚡_CONNECT-LINKEDIN-38BDF8?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" />
     </a>
     <a href="mailto:white018899@gmail.com">
-      <img src="https://img.shields.io/badge/Direct_Dispatch-Email_Me-F43F5E?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/✉️_DISPATCH-EMAIL_ME-F43F5E?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" />
     </a>
   </p>
 
@@ -27,65 +28,73 @@
 
 <br/>
 
-<!-- BENTO GRID SYSTEM -->
+<!-- MINIMALIST BENTO MATRIX -->
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>⚡ OPERATOR IDENTITY</h3>
+      <h3>⚡ OPERATOR SPECS</h3>
       <ul>
         <li>📍 <b>Base:</b> Gopalapatnam, India</li>
         <li>🏢 <b>Studio:</b> Vajra Hub</li>
-        <li>🌐 <b>Outpost:</b> <a href="https://nithin.akao.in/"><b>nithin.akao.in</b></a></li>
-        <li>📫 <b>Inquiries:</b> <code>white018899@gmail.com</code></li>
+        <li>🌐 <b>Digital HQ:</b> <a href="https://nithin.akao.in/"><b>nithin.akao.in</b></a></li>
+        <li>📫 <b>Direct:</b> <code>white018899@gmail.com</code></li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>🎯 MISSION & FOCUS</h3>
-      <p>Building high-velocity web apps with micro-interactions, clean architectural patterns, and production-grade engineering.</p>
+      <h3>🎯 FOCUS & ARCHITECTURE</h3>
+      <p>Obsessed with clean code architecture, smooth 60fps micro-interactions, responsive frontends, and robust full-stack engineering.</p>
       <br/>
-      <img src="https://img.shields.io/badge/STATUS-OPEN_TO_COLLABORATIONS-00FF66?style=flat-square&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/STATUS-AVAILABLE_FOR_PROJECTS-00FF66?style=flat-square&labelColor=0d1117" />
     </td>
   </tr>
 </table>
 
 ---
 
-### 🛠️ // CORE STACK & ARSENAL
+### 🛠️ // WEAPONS & TECH STACK
 
 <div align="center">
   <br/>
-  <!-- UNIFIED GLOWING ICONS -->
+  <!-- UNIFIED GLOWING MATRIX -->
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,ts,react,html,css,tailwind,nodejs,express,mongodb,git,github,vercel&perline=6&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=js,ts,react,html,css,tailwind,nodejs,express,mongodb,git,github,vercel,vite,postman&perline=7&theme=dark" />
   </a>
   <br/><br/>
 </div>
 
 ---
 
-### 📈 // TELEMETRY & ACTIVITY RADAR
+### 📊 // TELEMETRY & LIVE STATS
 
 <div align="center">
 
-  <!-- MATCHING TOKYO-NIGHT ACTIVITY GRAPH -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=White18899&theme=tokyo-night&area=true&hide_border=true&bg_color=0d1117" width="98%" />
-
-  <br/><br/>
-
-  <!-- UNIFIED COLOR THEME STATS -->
-  <img src="https://github-readme-stats.vercel.app/api?username=White18899&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" width="48%" />
+  <!-- UNIFIED STATS CARDS (GRADE CIRCLE REMOVED) -->
+  <img src="https://github-readme-stats.vercel.app/api?username=White18899&show_icons=true&theme=tokyonight&hide_border=true&hide_rank=true&include_all_commits=true&bg_color=0d1117" width="48%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=White18899&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" width="48%" />
 
   <br/><br/>
 
-  <!-- MATCHING STREAK STATS -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=White18899&theme=tokyonight&hide_border=true&background=0d1117" width="98%" />
+  <!-- ANIMATED STREAK RADAR -->
+  <img src="https://streak-stats.demolab.com/?user=White18899&theme=tokyonight&hide_border=true&background=0d1117" width="98%" />
 
+</div>
+
+---
+
+### 🚀 // FEATURED BUILDS
+
+<div align="center">
+  <a href="https://github.com/White18899/KinetEDU">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=White18899&repo=KinetEDU&theme=tokyonight&hide_border=true&bg_color=0d1117" width="48%" />
+  </a>
+  <a href="https://github.com/White18899/chat-bot">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=White18899&repo=chat-bot&theme=tokyonight&hide_border=true&bg_color=0d1117" width="48%" />
+  </a>
 </div>
 
 <br/>
 
 <div align="center">
-  <!-- FLUID WAVE FOOTER -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020408,50:0d1b2a,100:050811&height=100&section=footer&animation=twinkling" width="100%" />
+  <!-- MATCHING COSMIC WAVE FOOTER -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:03060d,55:0e1a2e,100:050811&height=100&section=footer&animation=twinkling" width="100%" />
 </div>
