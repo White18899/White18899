@@ -28,28 +28,26 @@
 
 <br/>
 
-  <!-- FASTFETCH TERMINAL OPERATOR HUD -->
-  <div align="center">
-    <img src="./sysinfo-terminal.svg" width="100%" alt="Operator Fastfetch Terminal HUD" />
-  </div>
-
-  <br/>
-
-  <!-- COMMAND MISSION BRIEFING -->
-  <table width="100%">
-    <tr>
-      <td width="50%" valign="top">
-        <h4>🎯 // MISSION OBJECTIVE</h4>
-        <p>Obsessed with clean code architecture, smooth 60fps micro-interactions, responsive frontends, and resilient full-stack systems.</p>
-      </td>
-      <td width="50%" valign="top">
-        <h4>⚡ // CORE CAPABILITIES</h4>
-        <p>Next.js App Router • High-Performance WebGL &amp; SVG UI • Real-time Microservices • Design Systems &amp; Dark HUDs</p>
-      </td>
-    </tr>
-  </table>
-
-</div>
+<!-- MINIMALIST BENTO MATRIX -->
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚡ OPERATOR SPECS</h3>
+      <ul>
+        <li>📍 <b>Base:</b> Gopalapatnam, India</li>
+        <li>🏢 <b>Studio:</b> Vajra Hub</li>
+        <li>🌐 <b>Digital HQ:</b> <a href="https://nithin.akao.in/"><b>nithin.akao.in</b></a></li>
+        <li>📫 <b>Direct:</b> <code>white018899@gmail.com</code></li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎯 FOCUS & ARCHITECTURE</h3>
+      <p>Obsessed with clean code architecture, smooth 60fps micro-interactions, responsive frontends, and robust full-stack engineering.</p>
+      <br/>
+      <img src="https://img.shields.io/badge/STATUS-AVAILABLE_FOR_PROJECTS-00FF66?style=flat-square&labelColor=0d1117" />
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -83,21 +81,10 @@
 
 ---
 
-### 📡 // QUANTUM TELEMETRY & ACTIVITY TOPOLOGY
+### 📈 // ACTIVITY OSCILLOSCOPE & RADAR
 
 <div align="center">
-  <!-- 365-DAY FREQUENCY WAVEFORM -->
   <img src="./activity-graph.svg" width="100%" alt="Activity Oscilloscope" />
-  
-  <br/><br/>
-
-  <!-- CYBERNETIC CONTRIBUTION FEEDER SNAKE -->
-  <img src="./snake.svg" width="100%" alt="Cyber Snake Matrix Feeder" />
-
-  <br/><br/>
-
-  <!-- 3D ISOMETRIC CITY TOPOLOGY -->
-  <img src="./profile-3d-contrib/profile-night-green.svg" width="100%" alt="3D Profile Contrib Night Green" />
 </div>
 
 ### 🚀 // FEATURED BUILDS

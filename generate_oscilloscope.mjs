@@ -139,7 +139,9 @@ async function generate() {
   ${monthTexts}
 </svg>`;
 
-    fs.writeFileSync('./activity-graph.svg', svg, 'utf-8');
+    fs.writeFileSync('A:/White18899/activity-graph.svg', svg, 'utf-8');
+    // Also copy script to White18899 for the daily GitHub Action
+    fs.writeFileSync('A:/White18899/generate_oscilloscope.mjs', fs.readFileSync('A:/portfolio/generate_oscilloscope.mjs', 'utf-8'), 'utf-8');
     console.log('Successfully generated activity-graph.svg with', totalCommits, 'commits!');
   } catch (err) {
     console.error('Generation error:', err);
