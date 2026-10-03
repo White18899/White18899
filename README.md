@@ -84,7 +84,7 @@
 ### 🏙️ // 3D ISOMETRIC CONTRIBUTION MATRIX
 
 <div align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Isometric Contribution Matrix" />
+  <img src="./profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D Isometric Contribution Matrix" />
 </div>
 
 ### 🚀 // FEATURED BUILDS
