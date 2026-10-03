@@ -1,0 +1,88 @@
+name: Profile Guestbook
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  sign:
+    if: contains(github.event.issue.title, 'guestbook') || contains(github.event.issue.labels.*.name, 'guestbook')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update Guestbook in README
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const issue = context.payload.issue;
+            const user = issue.user.login;
+            const avatar = issue.user.avatar_url;
+            let message = issue.body ? issue.body.trim().replace(/\r?\n/g, ' ') : 'Signed!';
+            
+            // Clean markdown headings/metadata from issue templates
+            message = message.replace(/###.*$/g, '').replace(/Your Message/g, '').trim();
+            // Sanitize HTML and table pipes
+            message = message.replace(/<[^>]*>?/gm, '').replace(/\|/g, '-').slice(0, 140);
+            if (!message) message = 'Signed!';
+
+            const date = new Date().toISOString().split('T')[0];
+            const entry = `| <img src="${avatar}" width="32" height="32" style="border-radius:50%;" /> | **[@${user}](https://github.com/${user})** | ${message} | \`${date}\` |`;
+
+            const readmePath = 'README.md';
+            let readme = fs.readFileSync(readmePath, 'utf8');
+
+            const startTag = '<!-- START_SECTION:guestbook -->';
+            const endTag = '<!-- END_SECTION:guestbook -->';
+
+            const startIndex = readme.indexOf(startTag);
+            const endIndex = readme.indexOf(endTag);
+
+            if (startIndex !== -1 && endIndex !== -1) {
+              const before = readme.substring(0, startIndex + startTag.length);
+              const current = readme.substring(startIndex + startTag.length, endIndex).trim();
+              const after = readme.substring(endIndex);
+
+              const tableHeader = '\n\n| Avatar | User | Message | Date |\n| :---: | :--- | :--- | :---: |\n';
+              let rows = [];
+
+              if (current.includes('| Avatar |')) {
+                const lines = current.split('\n').filter(l => l.startsWith('| <img'));
+                rows = [entry, ...lines].slice(0, 10);
+              } else {
+                rows = [entry];
+              }
+
+              const updatedGuestbook = tableHeader + rows.join('\n') + '\n\n';
+              readme = before + updatedGuestbook + after;
+
+              fs.writeFileSync(readmePath, readme, 'utf8');
+
+              // Reply and auto-close
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: `🎉 **Thanks for signing my guestbook, @${user}!** Your signature and message are now live on my profile page.`
+              });
+
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                state: 'closed'
+              });
+            }
+
+      - name: Commit and Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add README.md
+          git commit -m "feat(guestbook): signature from @${{ github.event.issue.user.login }}" || exit 0
+          git push

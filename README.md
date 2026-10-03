@@ -100,6 +100,23 @@
 
 <br/>
 
+---
+
+### ✍️ // VISITOR GUESTBOOK
+
+<div align="center">
+  <p>Leave a message, feedback, or say hi! Your note will appear here automatically.</p>
+  <a href="https://github.com/White18899/White18899/issues/new?template=guestbook.yml&title=guestbook%3A+sign">
+    <img src="https://img.shields.io/badge/✍️_SIGN_MY_GUESTBOOK-CLICK_TO_LEAVE_A_MESSAGE-00FF66?style=for-the-badge&logoColor=black&labelColor=0d1117" />
+  </a>
+</div>
+
+<br/>
+
+<!-- START_SECTION:guestbook -->
+<p align="center"><i>Be the first to sign! Click the button above to leave your signature.</i></p>
+<!-- END_SECTION:guestbook -->
+
 <div align="center">
   <!-- MATCHING COSMIC WAVE FOOTER -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:03060d,55:0e1a2e,100:050811&height=100&section=footer&animation=twinkling" width="100%" />
