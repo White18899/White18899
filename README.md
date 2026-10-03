@@ -1,84 +1,91 @@
 <div align="center">
 
-  <!-- ANIMATED FLUID WAVE HEADER -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,30&height=220&section=header&text=NITHIN&fontSize=70&fontAlignY=38&animation=twinkling&desc=FULL-STACK%20DEVELOPER%20%E2%80%A2%20CREATIVE%20TECHNOLOGIST&descAlignY=60&descAlign=50" width="100%" />
+  <!-- LUXURY OBSIDIAN & DEEP NAVY FLUID WAVE BANNER -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050811,50:0d1b2a,100:020408&height=220&section=header&text=NITHIN&fontSize=54&fontColor=ffffff&fontAlignY=36&animation=twinkling&desc=FULL%20STACK%20DEVELOPER%20%E2%80%A2%20CREATIVE%20ENGINEER&descSize=16&descColor=00f2fe&descAlignY=62" width="100%" />
 
-  <!-- DYNAMIC TYPING TERMINAL -->
+  <!-- ELECTRIC CYAN TYPING TERMINAL (NO TEXT CLIPPING) -->
   <a href="https://nithin.akao.in/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00FF66&center=true&vCenter=true&width=600&lines=%3E+EXPLORE+MY+UNIVERSE+AT+NITHIN.AKAO.IN;%3E+BUILDING+NEXT-GEN+WEB+AT+VAJRA+HUB;%3E+REACT+%E2%80%A2+JAVASCRIPT+%E2%80%A2+CREATIVE+UI;%3E+TURNING+COFFEE+INTO+SCALABLE+CODE;%3E+STATUS%3A+ALWAYS+SHIPPING+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00F2FE&center=true&vCenter=true&width=800&height=45&lines=%E2%86%92+Crafting+modern+digital+experiences+at+Vajra+Hub;%E2%86%92+Live+portfolio+%26+lab%3A+nithin.akao.in;%E2%86%92+Specialized+in+React%2C+Kinetic+UI+%26+Scalable+Backends;%E2%86%92+Turning+complex+problems+into+elegant+interfaces" alt="Typing SVG" />
   </a>
 
   <br/><br/>
 
-  <!-- KINETIC BUTTONS -->
+  <!-- SLEEK PILL ACTIONS -->
   <p align="center">
     <a href="https://nithin.akao.in/" target="_blank">
-      <img src="https://img.shields.io/badge/🌐_LIVE_PORTFOLIO-NITHIN.AKAO.IN-00FF66?style=for-the-badge&logoColor=black&labelColor=000000" />
+      <img src="https://img.shields.io/badge/Live_Portfolio-nithin.akao.in-00F2FE?style=for-the-badge&logo=googlechrome&logoColor=000&labelColor=0d1117" />
     </a>
     <a href="https://linkedin.com" target="_blank">
-      <img src="https://img.shields.io/badge/⚡_CONNECT-LINKEDIN-00F0FF?style=for-the-badge&logoColor=black&labelColor=000000" />
+      <img src="https://img.shields.io/badge/LinkedIn-Connect-38BDF8?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" />
     </a>
     <a href="mailto:white018899@gmail.com">
-      <img src="https://img.shields.io/badge/✉️_DISPATCH-EMAIL_ME-FF0055?style=for-the-badge&logoColor=white&labelColor=000000" />
+      <img src="https://img.shields.io/badge/Direct_Dispatch-Email_Me-F43F5E?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" />
     </a>
   </p>
-
-  <!-- ANIMATED PIXEL RUNNER -->
-  <img src="https://media.giphy.com/media/unQ3IJU2RG7DO/giphy.gif" width="120" />
 
 </div>
 
 <br/>
 
-<table align="center" width="100%">
+<!-- BENTO GRID SYSTEM -->
+<table width="100%">
   <tr>
-    <td align="center" style="background:#0d1117; border: 2px solid #00FF66; padding: 15px;">
-      <b>📍 BASE:</b> Gopalapatnam, India &nbsp;&nbsp;|&nbsp;&nbsp; 
-      <b>🏢 HUB:</b> Vajra Hub &nbsp;&nbsp;|&nbsp;&nbsp; 
-      <b>🌐 DOMAIN:</b> <a href="https://nithin.akao.in/">nithin.akao.in</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
-      <b>🚀 STATUS:</b> Available for moonshots
+    <td width="50%" valign="top">
+      <h3>⚡ OPERATOR IDENTITY</h3>
+      <ul>
+        <li>📍 <b>Base:</b> Gopalapatnam, India</li>
+        <li>🏢 <b>Studio:</b> Vajra Hub</li>
+        <li>🌐 <b>Outpost:</b> <a href="https://nithin.akao.in/"><b>nithin.akao.in</b></a></li>
+        <li>📫 <b>Inquiries:</b> <code>white018899@gmail.com</code></li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎯 MISSION & FOCUS</h3>
+      <p>Building high-velocity web apps with micro-interactions, clean architectural patterns, and production-grade engineering.</p>
+      <br/>
+      <img src="https://img.shields.io/badge/STATUS-OPEN_TO_COLLABORATIONS-00FF66?style=flat-square&labelColor=0d1117" />
     </td>
   </tr>
 </table>
 
 ---
 
-### ⚡ // WEAPONS & TECH STACK
+### 🛠️ // CORE STACK & ARSENAL
 
 <div align="center">
   <br/>
-  <!-- UNIFIED GLOWING TECH ICONS -->
+  <!-- UNIFIED GLOWING ICONS -->
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,html,css,react,tailwind,nodejs,express,git,github,linux,vercel,postman&perline=6&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=js,ts,react,html,css,tailwind,nodejs,express,mongodb,git,github,vercel&perline=6&theme=dark" />
   </a>
   <br/><br/>
 </div>
 
 ---
 
-### 📡 // LIVE ACTIVITY RADAR & FREQUENCY
+### 📈 // TELEMETRY & ACTIVITY RADAR
 
 <div align="center">
 
-  <!-- AUDIO/TELEMETRY STYLE ACTIVITY GRAPH -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=White18899&theme=react-dark&custom_title=CONTRIBUTION%20RADAR&line=00ff66&point=ffe600&area=true&hide_border=true&bg_color=0d1117" width="98%" />
+  <!-- MATCHING TOKYO-NIGHT ACTIVITY GRAPH -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=White18899&theme=tokyo-night&area=true&hide_border=true&bg_color=0d1117" width="98%" />
 
   <br/><br/>
 
-  <!-- HIGH-CONTRAST STATS TILES -->
-  <img src="https://github-readme-stats.vercel.app/api?username=White18899&show_icons=true&bg_color=0d1117&border_color=00FF66&title_color=00FF66&text_color=FFFFFF&icon_color=FFE600&hide_border=false" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=White18899&layout=compact&bg_color=0d1117&border_color=FF0055&title_color=FF0055&text_color=FFFFFF&hide_border=false" width="48%" />
+  <!-- UNIFIED COLOR THEME STATS -->
+  <img src="https://github-readme-stats.vercel.app/api?username=White18899&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=White18899&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" width="48%" />
 
   <br/><br/>
 
-  <!-- ANIMATED STREAK FLAME -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=White18899&background=0d1117&border=00F0FF&stroke=00F0FF&ring=FFE600&fire=FF0055&currStreakLabel=00F0FF&sideLabels=FFFFFF&sideNums=FFFFFF&dates=888888&hide_border=false" width="98%" />
+  <!-- MATCHING STREAK STATS -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=White18899&theme=tokyonight&hide_border=true&background=0d1117" width="98%" />
 
 </div>
 
 <br/>
 
 <div align="center">
-  <!-- ANIMATED FLUID WAVE FOOTER -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=30,24,12,1&height=120&section=footer&animation=twinkling" width="100%" />
+  <!-- FLUID WAVE FOOTER -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020408,50:0d1b2a,100:050811&height=100&section=footer&animation=twinkling" width="100%" />
 </div>
